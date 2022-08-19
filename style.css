@@ -1,0 +1,43 @@
+/* font-family: 'Poiret One', cursive; */
+
+body {
+  font-family: 'Poiret One', cursive;
+  background-color: #515138;
+  margin: 100px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.list {
+  background-color: #7c846a;
+  height: 500px;
+  width: 300px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+}
+
+p {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.card {
+  background-color: #c0996d;
+  height: 40px;
+  border: #c9a071 solid 1px;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+
+  display: flex;
+  column-gap: 30px;
+}
