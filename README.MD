@@ -1,13 +1,22 @@
+<h1 align="center"> Trallo </h1>
+
 ## Descrição
 
-Desafio de projeto para ser desenvolvido em 7 dias.
+Reprodução de uma Nested List.
 
-Escolhi reproduzir uma Nested List para estender os estudos em HTML5, CSS3, e JavaScrit.
+<!-- <p align="center"><img src="assets/GIF.gif"></p> -->
 
-####
+## Objetivo
 
-Inicio: 17/08/22
+- `Mover cards com o mouse`
+- `Desenvolver UI`
+
+## Tecnologias utilizadas
+
+- `HTML5`
+- `CSS3`
+- `JavaScript`
 
 ## Link de demonstração
 
-> xxx
+> https://marianwiermann.github.io/Trallo/
