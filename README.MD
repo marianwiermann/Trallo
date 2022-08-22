@@ -6,6 +6,10 @@ Reprodução de uma Nested List.
 
 <!-- <p align="center"><img src="assets/GIF.gif"></p> -->
 
+## Status
+
+Não Finalizado
+
 ## Objetivo
 
 - `Mover cards com o mouse`
