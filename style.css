@@ -39,5 +39,6 @@ p {
   cursor: pointer;
 
   display: flex;
-  column-gap: 30px;
+  gap: 30px 30px;
+  margin-bottom: 12px;
 }
