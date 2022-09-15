@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,14 +18,20 @@
     <title>Trallo</title>
   </head>
   <body>
-    <section class="list do">
-      <p>do</p>
-      <div class="card">HTML5</div>
-      <div class="card">CSS3</div>
+    <section class="board do">
+      <h3>do</h3>
+      <div class="dropzone highlight">
+        <div class="card" draggable="true">
+          <div class="conteudo">HTML5</div>
+        </div>
+        <div class="card" draggable="true">
+          <div class="conteudo">CSS3</div>
+        </div>
+      </div>
     </section>
 
-    <section class="list done">
-      <p>done</p>
+    <section class="board done">
+      <h3>done</h3>
       <div class="card">JavaScrit</div>
     </section>
   </body>
