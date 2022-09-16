@@ -35,18 +35,24 @@ body {
   border: #c9a071 solid 1px;
   border-radius: 10px;
   padding: 12px;
-  margin: 6px 0;
-  cursor: pointer;
+  margin: 6px 6px;
+  /* cursor: pointer; */
 }
 
 .highlight {
-  background-color: #969e85;
+  border-radius: 10px;
+  background-color: #6f6f5a;
 }
 
-.card .dropzone{
+.card, .dropzone{
   transition: .4s;
 }
 
 .is-dragging{
-  
+  cursor: move;
+  opacity: .3;
+}
+
+.over {
+  background-color: #969e85;
 }
