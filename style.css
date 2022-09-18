@@ -31,12 +31,10 @@ body {
 
 .card {
   background-color: #c0996d;
-  height: 40px;
   border: #c9a071 solid 1px;
   border-radius: 10px;
   padding: 12px;
-  margin: 6px 6px;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .highlight {
@@ -51,4 +49,12 @@ body {
 
 .over {
   background-color: #db9163;
+}
+
+.dropzone {
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 6px;
 }
