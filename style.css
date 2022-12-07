@@ -1,8 +1,14 @@
 /* font-family: 'Poiret One', cursive; */
 
+:root {
+  --background:  #515138;
+  --board:  #7c846a;
+  --card: #c0996d;
+}
+
 body {
   font-family: 'Poiret One', cursive;
-  background-color: #515138;
+  background-color: var(--background);
   margin: 100px;
   
   display: flex;
@@ -12,7 +18,7 @@ body {
 }
 
 .board {
-  background-color: #7c846a;
+  background-color: var(--board);
   height: 500px;
   width: 300px;
   padding: 12px;
@@ -24,14 +30,12 @@ body {
 
 .board h3 {
   font-size: 20px;
-  text-transform: uppercase;
   margin: 0;
   margin-bottom: 12px;
 }
 
 .card {
-  background-color: #c0996d;
-  border: #c9a071 solid 1px;
+  background-color: var(--card);
   border-radius: 10px;
   padding: 12px;
   cursor: pointer;
@@ -57,4 +61,45 @@ body {
   flex-direction: column;
   gap: 6px;
   padding: 6px;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+
+.botao {
+  background-color: var(--board);
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+
+  padding: 6px;
+  margin: 6px 6px;
+}
+
+.botao:hover {
+  background-color: #757c65;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 6px 6px;
+}
+
+.botao:active {
+  background-color: #db9163;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 6px 6px;
+}
+
+.texto {
+  border-radius: 10px;
+  padding: 6px;
+  border: none;
+  margin: 0 6px;
 }
