@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,31 +26,34 @@
           <div class="conteudo">HTML5</div>
         </div>
 
-        <div class="card" draggable="true">
+        <!-- <div class="card" draggable="true">
           <div class="conteudo">CSS3</div>
-        </div>
+        </div> -->
       </div>
 
-      <div class="add">
-        <label for="texto"></label>
-        <input
-          type="text"
-          id="texto"
-          class="texto"
-          placeholder="digitar título"
-        />
-        <button class="botao" type="submit">+ Adicionar um cartão</button>
-      </div>
+      <form id="form-adiciona">
+        <div class="add">
+          <label for="texto"></label>
+          <input
+            id="texto"
+            name="texto"
+            type="text"
+            placeholder="digitar título"
+            class="texto"
+          />
+        </div>
+        <button id="botao-add" class="botao-add">+ Adicionar um cartão</button>
+      </form>
     </section>
 
     <section class="board done">
       <h3>Done</h3>
 
-      <div class="dropzone">
+      <!-- <div class="dropzone">
         <div class="card" draggable="true">
           <div class="conteudo">JavaScrit</div>
         </div>
-      </div>
+      </div> -->
 
       <div class="add">
         <label for="texto"></label>
@@ -60,7 +63,7 @@
           class="texto"
           placeholder="digitar título"
         />
-        <button class="botao" type="submit">+ Adicionar um cartão</button>
+        <button class="botao-add" type="submit">+ Adicionar um cartão</button>
       </div>
     </section>
   </body>

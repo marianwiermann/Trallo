@@ -17,6 +17,8 @@ body {
   gap: 50px;
 }
 
+/* ------- board ------- */
+
 .board {
   background-color: var(--board);
   height: 500px;
@@ -34,12 +36,16 @@ body {
   margin-bottom: 12px;
 }
 
+/* ------- cartão ------- */
+
 .card {
   background-color: var(--card);
   border-radius: 10px;
   padding: 12px;
   cursor: pointer;
 }
+
+/* ------- drapzone ------- */
 
 .highlight {
   border-radius: 10px;
@@ -63,13 +69,17 @@ body {
   padding: 6px;
 }
 
+/* ------- botão de adicionar card ------- */
+
 .add {
   display: flex;
   flex-direction: column;
   margin-top: 6px;
+
+  justify-content: flex-end;
 }
 
-.botao {
+.botao-add {
   background-color: var(--board);
   cursor: pointer;
   font-size: 15px;
@@ -83,7 +93,7 @@ body {
   margin: 6px 6px;
 }
 
-.botao:hover {
+.botao-add:hover {
   background-color: #757c65;
   border-radius: 10px;
   padding: 6px;
