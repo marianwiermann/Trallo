@@ -46,6 +46,15 @@ function drop() {
   this.classList.remove('over')
 }
 
+// document.querySelectorAll("button").forEach(function(btn) {
+//   btn.addEventListener("click", function(){
+//     alert("Agora com QuerySelectorAll");
+//   });
+// });
+
+// botaoAdicionar.addEventListener('click', function (event) {
+//   event.preventDefault()
+
 // add cards -----------
 const botaoAdicionar = document.querySelector('.botao-add')
 
@@ -53,13 +62,14 @@ botaoAdicionar.addEventListener('click', function (event) {
   event.preventDefault()
 
   // pegando o valor o novo conteudo
-  const form = document.querySelector('#form-adiciona')
+  const form = document.querySelector('.form-adiciona')
   const conteudo = form.texto.value
 
   // novo card
   const novoCard = document.createElement('div')
   const novoConteudo = document.createElement('div')
   novoCard.classList.add('card') //add class
+  novoCard.classList.add('true') //add class
 
   novoConteudo.textContent = conteudo
 
