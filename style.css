@@ -1,4 +1,4 @@
-/* font-family: 'Poiret One', cursive; */
+/* font-family: 'Roboto', sans-serif; */
 
 :root {
   --background:  #515138;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--background);
   margin: 100px;
   
