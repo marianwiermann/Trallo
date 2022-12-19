@@ -1,25 +1,27 @@
 // add cards -----------
-const botaoAdicionar = document.querySelector('.botao-add')
+const botaoAdicionar = document.querySelectorAll('.botao-add')
 
-botaoAdicionar.addEventListener('click', function (event) {
-  event.preventDefault()
+botaoAdicionar.forEach(botaoAdicionar => {
+  botaoAdicionar.addEventListener('click', function (event) {
+    event.preventDefault()
 
-  // pegando o valor o novo conteudo
-  const form = document.querySelector('.form-adiciona')
-  const conteudo = form.texto.value
+    // pegando o valor para o novo conteudo
+    const form = document.querySelectora('.form-adiciona')
+    const conteudo = form.texto.value
 
-  // novo card
-  const novoCard = document.createElement('div')
-  const novoConteudo = document.createElement('div')
-  novoCard.classList.add('card') //add class
-  novoCard.classList.add('is-dragging') //add class css
-  novoCard.setAttribute('draggable', true) //add atribute
+    // novo card
+    const novoCard = document.createElement('div')
+    const novoConteudo = document.createElement('div')
+    novoCard.classList.add('card') //add class
+    novoCard.classList.add('is-dragging') //add class css
+    novoCard.setAttribute('draggable', true) //add atribute
 
-  novoConteudo.textContent = conteudo
+    novoConteudo.textContent = conteudo
 
-  novoCard.appendChild(novoConteudo)
+    novoCard.appendChild(novoConteudo)
 
-  const board = document.querySelector('.dropzone')
+    const board = document.querySelector('.dropzone')
 
-  board.appendChild(novoCard)
+    board.appendChild(novoCard)
+  })
 })
