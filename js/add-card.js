@@ -12,6 +12,7 @@ botaoAdicionar.addEventListener('click', function (event) {
   const novoCard = document.createElement('div')
   const novoConteudo = document.createElement('div')
   novoCard.classList.add('card') //add class
+  novoCard.classList.add('is-dragging') //add class css
   novoCard.setAttribute('draggable', true) //add atribute
 
   novoConteudo.textContent = conteudo

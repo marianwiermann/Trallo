@@ -54,7 +54,6 @@ body {
 
 .is-dragging{
   cursor: move;
-  opacity: .3;
 }
 
 .over {
