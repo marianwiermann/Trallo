@@ -6,7 +6,7 @@ botaoAdicionar.forEach(botaoAdicionar => {
     event.preventDefault()
 
     // pegando o valor para o novo conteudo
-    const form = document.querySelectora('.form-adiciona')
+    const form = document.querySelector('.form-adiciona')
     const conteudo = form.texto.value
 
     // novo card
